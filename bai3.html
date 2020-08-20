@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai3</title>
+</head>
+<body>
+<script>
+    let a ="tHE qUICK bROWN fOX";
+    let b="";
+    let UPPER = "QWERTYUIOPASDFGHJKLZXCVBNM";
+    let LOWER = "qwertyuiopasdfghjklzxcvbnm";
+    for (let i=0; i<a.length; i++) {
+        if (UPPER.indexOf(a[i]) !==-1) {
+            b+=(a[i].toLowerCase());
+        } else if( LOWER.indexOf(a[i])!==-1){
+            b+=(a[i].toUpperCase());
+        }else
+            b+=(a[i]);
+    }
+    console.log(b);
+</script>
+</body>
+</html>
