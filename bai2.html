@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai2</title>
+</head>
+<body>
+<script>
+    let a = prompt("nhap day so");
+    let text ="";
+    for (let i=0;i<a.length;i++) {
+        if (a[i] %2==0 && a[i+1]%2==0) {
+            text+= a[i] + "-";
+        } else text+= a[i];
+    } console.log(text);
+</script>
+</body>
+</html>
